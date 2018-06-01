@@ -20,13 +20,21 @@ class Sidebar extends PureComponent {
           mode="inline"
         >
           <Menu.Item key="project">
-            <NavLink className="navlink" to="/project" activeClassName="selected">
+            <NavLink
+              className="navlink"
+              to="/project"
+              activeClassName="selected"
+            >
               <Icon type="book" />
               <span className="nav-text">Projects</span>
             </NavLink>
           </Menu.Item>
           <Menu.Item key="shop">
-            <NavLink className="navlink" to="/task" activeClassName="selected">
+            <NavLink
+              className="navlink"
+              to="/task"
+              activeClassName="selected"
+            >
               <Icon type="video-camera" />
               <span className="nav-text">Tasks</span>
             </NavLink>
